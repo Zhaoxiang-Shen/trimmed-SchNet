@@ -1,5 +1,5 @@
 """
-The MBD force data generator for the three polymer melts (PE, PP, PVC).
+The MBD force data generator for the three polymer melts (PE, PP, PVC), force output unit: Hatree/Bohr
 It is an example to illustrate how to create MBD dataset for molecular systems.
 The geo file (.gen) is not provide with the code.
 """
