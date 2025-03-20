@@ -20,5 +20,8 @@ This repository contains the TensorFlow implementations for the model and equiva
       title={Machine learning surrogate models of many-body dispersion interactions in polymer melts}, 
       author={Zhaoxiang Shen and Raúl I. Sosa and Jakub Lengiewicz and Alexandre Tkatchenko and Stéphane P. A. Bordas},
       year={2025},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2503.15149}, 
 }
 ```
