@@ -144,7 +144,7 @@ num_epochs = 100
 step_save = 50
 ep0 = 0
 loss_func = 'mse'
-lr0 = 1e-4
+lr0 = 1e-3
 w_decay = 0.004
 opt_reset = False  # for reset the weights of optimizer
 
@@ -310,3 +310,4 @@ for fit_step in range(int((num_epochs-ep0)/step_save)):
     except:
         print('nothing to remove')
     #
+
