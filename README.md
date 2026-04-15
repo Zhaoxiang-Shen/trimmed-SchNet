@@ -47,12 +47,13 @@ All provided codes can run on CPU, but GPU acceleration is strongly recommended 
 
 ## Cite
 ```
-@misc{trimmed-SchNet,
-      title={Machine learning surrogate models of many-body dispersion interactions in polymer melts}, 
-      author={Zhaoxiang Shen and Raúl I. Sosa and Jakub Lengiewicz and Alexandre Tkatchenko and Stéphane P. A. Bordas},
-      year={2025},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2503.15149}, 
-}
+@article{Shen2026trimmedSchNet,
+	author={Shen, Z. and Sosa, R. I. and Lengiewicz, J. and Tkatchenko, A. and Bordas, S. P. A.},
+	title={Machine learning surrogate models of many-body dispersion interactions in polymer melts},
+	journal={Machine Learning: Science and Technology},
+      volume = {7},
+      number = {2},
+      pages = {025040},
+      doi={https://doi.org/10.1088/2632-2153/ae545a},
+	year={2026}}
 ```
