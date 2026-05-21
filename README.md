@@ -31,11 +31,14 @@ N_extra = 50
 ```
 3. Trained model will be saved as `checkpoints`, a dedicated folder for checkpoints is preferred. To resume training from a checkpoint, set `ep0` as the resumed epoch number.
 
-### MD simulation
+### JAX-MD Implementation
 1. After installing `jax-md`, please introduce a few change to the library. See `trimmed-SchNet/jax/nvt_test.py`.
 2. The MD example `nvt_test.py` performs NVT simulation for a 9k-atom PE melt decribed by `N6E250_nvt.gen`. This is just a primitive test code to show computational efficiency, therefore only the MBD forces is considered and the trimmed-SchNet model is not trained.
 3. Set `steps` for numbers of MD simulation steps.
-4. MD simulation code with complete force field is under development. 
+
+### Demo: NVT simulations
+1. The NVT simulation code with complete force field is now provided in demos/nvt. It incorporates the TraPPE force field model with different disperson terms, including LJ-6, LJ-4 (effective low-rate model), and trimmed-SchNet.
+2. The detailed readme file is provided inside its folder. 
 
 ## Dependencies
 - `tensorflow==2.15.0`
