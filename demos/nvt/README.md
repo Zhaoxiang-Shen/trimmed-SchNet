@@ -15,7 +15,7 @@ This codebase was developed to support Chapter 4 of the doctoral thesis of Zhaox
 2. The main execution script `nvt_full.py` contains several short patches/modifications to JAX-MD required for full compatibility between JAX-MD, the TraPPE framework, and the trimmed-SchNet ML surrogate model.
 3. Initial configurations: three equilibrated PE melt configurations are provided as initial states for simulations. These configurations can be used directly for reproduction of the reported results or for further dynamics analysis.
 4. The trimmed-SchNet surrogate model provided in this repository was first pretrained using the full dataset introduced with trimmed-SchNet, and subsequently fine-tuned on the 9k-atom PE melt system used in this work. This is necessary because the original training dataset was generated using the CHARMM force field, which introduces discrepancies with the TraPPE-based model employed in the present simulations.
-5. Several simulation trajectories and fine-tuned datasets have been open-sourced on [ZENODO](??) to support further analysis and benchmarking studies.
+5. Several simulation trajectories and fine-tuned datasets have been open-sourced on [ZENODO](https://zenodo.org/records/20328546) to support further analysis and benchmarking studies.
 
 ## Cite
 ```
